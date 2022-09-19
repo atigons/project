@@ -158,10 +158,10 @@ public class MenuController implements Initializable {
          totalAmount.setText("0");
         
          i= LoginController.cust_id;//customer id which is primary key
-<<<<<<< HEAD
+//<<<<<<< HEAD
          custLabel.setText(Integer.toString(i));
-=======
->>>>>>> bb66ea2 (second commit)
+//=======
+//>>>>>>> bb66ea2 (second commit)
          if(menuModel.isDbConnected()){
              System.out.println("Db connected");
         }else{
